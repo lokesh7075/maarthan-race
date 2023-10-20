@@ -1,0 +1,151 @@
+.wrapper{
+    height: 100vh;
+}
+.top-bar{
+    width: 80%;
+    height: 50px;
+    margin: 20px auto;
+}
+.logo{
+    float: left;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+}
+.logo img{
+    width: 250px;
+}
+.menu-bar{
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+.menu-bar ul li{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    margin: 15px 20px;
+    padding-top: 5px;
+    transition: 0.3s linear;
+}
+.active , .menu-bar ul li:hover{
+    border-bottom: 2px solid #01f30d;
+}
+.search-box{
+    width: 20%;
+    float: right;
+}
+.input-search{
+    margin: 11px auto;
+    display: inline-flex;
+    border-bottom: 1px solid #04fe08;
+}
+.input-search input{
+    float: right;
+    padding: 5px;
+    box-shadow: none;
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+.hero{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+.hero-text{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.hero-text h1{
+    margin: 100px 0 50px 70px;
+    line-height: 40px;
+}
+.hero-text h1::after{
+    content: '';
+    width: 150px;
+    height: 2px;
+    background:rgb(2, 251, 2);
+    top: 32%;
+    left: 28%;
+    position: absolute;
+}
+.hero-text p{
+    padding-left: 70px;
+    line-height: 25px;
+}
+.fa-play{
+    font-size: 40px;
+}
+.fa-play{
+    padding-left: 70px;
+    line-height: 25px;
+}
+.hero-text span{
+    display: table;
+    margin: 50px 0;
+}
+.hero-text span::after{
+    content: '';
+    width: 110px;
+    height: 2px;
+    background: #02fa02;
+    top: 400px;
+    left: 175px;
+    position: absolute;
+}
+.hero-banner{
+    width: 49%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+.hero-banner img{
+    width: 100%;
+    margin: 100px auto;
+}
+.wrapper small{
+    margin-left: 210px;
+}
+.wrapper small b{
+    margin-right: 50px;
+}
+.shopping-box{
+    width: 150px;
+    height: 200px;
+    right: 0;
+    top: -80px;
+    position: absolute;
+    background-image: linear-gradient(#2c97e4,rgb(3, 250, 3));
+    border-radius: 0 0 60px 240px;
+}
+.social-icons{
+    width: 200px;
+    height: 390px;
+    left: -90px;
+    top: 150px;
+    position: absolute;
+    border-top-right-radius: 275px 309px;
+    border-bottom-right-radius: 328px 627px;
+    border-bottom-left-radius: 108px 345px;
+    background-image: linear-gradient(#2c97e4,rgb(3, 250, 3));
+}
+.social-icons ul{
+    display: block;
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.social-icons ul li{
+        list-style: none;
+        margin-top: 30px;
+}
+.social-icons ul li .fa{
+        font-size: 22px;
+        cursor: pointer;
+        z-index: 1;
+
+}
